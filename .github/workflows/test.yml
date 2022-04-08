@@ -1,11 +1,11 @@
-name: npm publish
+name: npm test
 on:
   push:
     branches:
-      - release
+      - main
   pull_request:
     branches:
-      - release
+      - main
     types: [assigned]
   
 jobs:
